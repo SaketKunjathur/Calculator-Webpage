@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="result-box">
+                <h1 id="ans">0</h1>
+            </div>
+            <div id="button-pad">
+                <Button class="button" id="clear" onclick="clear_btn()">C</Button>
+                <Button class="button" id="clear-all" onclick="clear_all_btn()">CA</Button>
+                <Button class="button" id="modulo">%</Button>
+                <Button class="button" id="divide">/</Button>
+
+                <Button class="button" id="n7">7</Button>
+                <Button class="button" id="n8">8</Button>
+                <Button class="button" id="n9">9</Button>
+                <Button class="button" id="multiply">X</Button>
+
+                <Button class="button" id="n4">4</Button>
+                <Button class="button" id="n5">5</Button>
+                <Button class="button" id="n6">6</Button>
+                <Button class="button" id="subtract">-</Button>
+                
+                <Button class="button" id="n1">1</Button>
+                <Button class="button" id="n2">2</Button>
+                <Button class="button" id="n3">3</Button>
+                <Button class="button" id="addition">+</Button>
+                
+                <Button class="button" id="n0">0</Button>
+                <Button class="button" id="point">.</Button>
+                <Button class="button" id="equals" onclick="equals()">=</Button>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>

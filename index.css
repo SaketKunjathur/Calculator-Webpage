@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@387&display=swap');
+
+html {
+    height: 100%;
+}
+
+body {
+    background: rgb(156,217,208);
+    background: linear-gradient(135deg, rgba(156,217,208,1) 0%, rgba(224,183,124,1) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+.container {
+    box-shadow: 10px 10px 17px rgb(0, 0, 0, 0.24);
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 35px;
+    width: 350px;
+    background: rgb(13,100,166);
+    background: linear-gradient(135deg, rgba(13,100,166,1) 0%, rgba(29,55,80,1) 100%);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+#ans {
+    margin: 0px;
+    padding-right:10px;
+    padding-top:5px;
+}
+
+#result-box {
+    width: 350px;
+    height: 100px;
+    font-weight: 100;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    text-align: right;
+}
+
+#button-pad {
+    display: inline-grid;
+    column-gap: 10px;
+    row-gap: 10px;
+    padding-top: 10px;
+}
+
+#clear {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+#clear-all {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+
+#modulo {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+#divide {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+#divide {
+    grid-row-start: 1;
+    grid-row-end: 2;
+    grid-column-start: 4;
+    grid-column-end: 5;
+}
+
+.button {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 23px;
+    font-weight: 950;
+    width: 80px;
+    height: 80px;
+    background: #A9A7DE;
+    border :none;
+    border-radius: 10px;
+}
+
+.button:hover {
+    background-color: #C2C0EB;
+}
+
+#equals {
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+    width: 170px;
+    background: #EA725F;
+}
+
+#equals:hover {
+    background-color: #F28E7B;
+}
